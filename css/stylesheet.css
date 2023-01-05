@@ -33,9 +33,11 @@ header{
     padding: 16px 0;
 }
 .head_inner{
+    width: 98%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 .logo, .menu{
     width: 50%;
