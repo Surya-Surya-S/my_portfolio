@@ -220,46 +220,93 @@ span{
     text-transform: capitalize;
     margin: 0 0 40px 0;
 }
-.contact_details{
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-}
 form{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
 }
 form h4{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: normal;
     text-transform: capitalize;
-    margin: 0 20px 10px;
+    margin: 0 10px 0 0;
 }
-input{
-    padding: 4px 40px;
+input, textarea{
+    font-size: 12px;
+    color: #333;
+    text-transform: capitalize;
+    padding: 6px 20px 8px 4px;
     outline: none;
     border: none;
 }
-.form input{
-    margin: 0 0 0 46px;
+.form{
+    margin: 0 0 10px 44px;
 }
-form textarea{
-    width: 252px;
-    height: 100px;
-    outline: none;
-    border: none;
-    margin: 0 0 40px 52px;
+textarea{
+    width: 280px;
+    height: 90px;
+    margin: 0 0 0 16px;
+}
+form.active{
+    margin: 0 0 40px 142px;
 }
 .contact_details a{
     background-color: #8a2be2;
     font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     color: #fff;
-    display: inline-block;
     border-radius: 4px;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 /* contact_end */
+
+/* social_link */
+.social{
+    background-color: #e8e6ea;
+    padding: 80px 0;
+}
+.social_inner{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.insta{
+    background: url("../images/cowsprite.png") no-repeat -57px -63px;
+	width: 30px;
+	height: 30px;
+    margin: 0 10px;
+}
+.fb{
+    background: url("../images/cowsprite.png") no-repeat -65px -111px;
+	width: 14px;
+	height: 24px;
+    margin: 0 10px;
+}
+.twit{
+    background: url("../images/cowsprite.png") no-repeat -64px -156px;
+	width: 24px;
+	height: 20px;
+    margin: 0 10px;
+}
+.linkedin{
+    background: url("../images/cowsprite.png") no-repeat -58px -201px;
+	width: 30px;
+	height: 30px;
+    margin: 0 10px;
+}
+.google{
+    background: url("../images/cowsprite.png")  no-repeat -59px -254px;
+	width: 30px;
+	height: 30px;
+    margin: 0 10px;
+}
+.social_link{
+    padding: 10px 0;
+}
+/* social_link */
 
 /* footer_start */
 footer{
