@@ -308,7 +308,7 @@ footer{
     margin: 0 auto;
 }
 .social_link{
-    width: 22%;
+    width: 24%;
     margin: 0 auto 30px;
 }
 .footer_para h2{
@@ -334,7 +334,7 @@ footer{
     text-transform: capitalize;
     text-align: center;
     color: #fff;
-    margin: 0 0 6px 0;
+    margin: 0 0 14px -38px;
 }
 .footer_link{
     display: inline-block;
