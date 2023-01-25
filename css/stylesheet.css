@@ -126,7 +126,7 @@ span{
     margin: 0 0 40px 0;
 }
 .about_content{
-    width: 86%;
+    width: 90%;
     display: flex;
     margin: 0 auto;
 }
@@ -286,16 +286,19 @@ span{
 .cl_inner1.active a{
     text-transform: capitalize;
 }
+.contact_inner .contact_rig {
+    text-align: center;
+}
 form{
   margin: 0 0 20px 0;  
 }
 input, textarea{
-    width: 90%;
+    width: 280px;
     font-size: 12px;
     color: #333;
     text-transform: capitalize;
     text-align: left;
-    padding: 6px 20px 8px 4px;
+    padding: 8px 20px 10px 4px;
     outline: none;
     border: none;
     margin: 0 auto;
@@ -312,6 +315,7 @@ textarea{
     color: #fff;
     border-radius: 4px;
     padding: 10px 20px;
+    margin-right: 180px;
 }
 /* contact_end */
 
